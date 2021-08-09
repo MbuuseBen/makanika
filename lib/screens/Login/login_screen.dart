@@ -2,6 +2,8 @@ import 'package:book/components/already_have_an_account_check.dart';
 import 'package:book/components/rounded_button.dart';
 import 'package:book/components/rounded_password_field.dart';
 import 'package:book/constants.dart';
+import 'package:book/screens/Account/account_settings.dart';
+import 'package:book/screens/EditSettings/edit_settings.dart';
 import 'package:book/screens/Login/components/background.dart';
 import 'package:book/components/rounded_input_field.dart';
 import 'package:book/components/text_field_container.dart';
@@ -52,7 +54,7 @@ class LoginScreen extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                         builder: (context){
-                          return ShopPage();
+                          return EditSettings();
                         }
                     )
                 );

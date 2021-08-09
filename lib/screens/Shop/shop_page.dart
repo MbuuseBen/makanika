@@ -42,8 +42,6 @@ class _ShopPageState extends State<ShopPage> {
 
 
           Container(
-    // alignment: Alignment.centerLeft,
-    // margin: const EdgeInsets.symmetric(horizontal: 5.0),
             width: 400,
             child: Card(
               margin: const EdgeInsets.symmetric(horizontal: 5.0),

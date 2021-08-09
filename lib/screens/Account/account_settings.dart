@@ -20,11 +20,8 @@ class AccountSettings extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Column(
-          //mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
-
               SizedBox(height: 5.0),
-
               Column(
                 //crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -50,8 +47,6 @@ class AccountSettings extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    // alignment: Alignment.centerLeft,
-                    // margin: const EdgeInsets.symmetric(horizontal: 5.0),
                     width: 400,
                     child: Card(
                       margin: const EdgeInsets.symmetric(horizontal: 5.0),
@@ -86,8 +81,6 @@ class AccountSettings extends StatelessWidget {
                       ],
                     ),
                   ),
-
-
                 ],
               ),
             ]),

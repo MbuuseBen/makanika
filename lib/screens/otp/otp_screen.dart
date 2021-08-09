@@ -32,11 +32,6 @@ class OtpScreen extends StatelessWidget{
               height: 150,
             ),
             SizedBox(height: 50,),
-            // SvgPicture.asset(
-            //   "assets/icons/login.svg",
-            //   height: size.height * 0.10,
-            // ),
-
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: TextField(
