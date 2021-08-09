@@ -87,7 +87,7 @@ class _ShopPageState extends State<ShopPage> {
           Align(
             alignment: Alignment.centerLeft,
             child: Container(
-              margin: const EdgeInsets.symmetric(horizontal: 5.0),
+              width: 400,
               child: Card(
                 margin: const EdgeInsets.symmetric(horizontal: 7.0),
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
