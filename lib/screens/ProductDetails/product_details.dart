@@ -196,7 +196,7 @@ import 'package:flutter_elegant_number_button/flutter_elegant_number_button.dart
                                     SizedBox(height: 10.0),
                                     Text('Engine Oil'),
                                     SizedBox(height: 5.0),
-                                    Text('UGX 10,000'),
+                                    Text('UGX 11,000'),
                                   ],
                                 ),
                               );
