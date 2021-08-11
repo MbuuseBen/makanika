@@ -8,7 +8,7 @@ import 'Login/login_screen.dart';
  class WelcomeScreen extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body:  ProductDetails(), );
+    return Scaffold(body:  ShopPage(), );
   }
 
  }
