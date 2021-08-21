@@ -1,4 +1,7 @@
 import 'package:book/constants.dart';
+import 'package:book/screens/Confirmation/Confirmation.dart';
+import 'package:book/screens/Invoice/Invoice.dart';
+import 'package:book/screens/Payment/PaymentMethod.dart';
 import 'package:book/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +20,7 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: WelcomeScreen(),
+      home: Confirmation(),
     );
   }
 }
