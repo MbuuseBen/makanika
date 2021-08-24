@@ -1,5 +1,6 @@
 import 'package:book/components/rounded_button.dart';
 import 'package:book/components/rounded_input_field.dart';
+import 'package:book/screens/Confirmation/Confirmation.dart';
 import 'package:book/screens/Shop/shop_page.dart';
 import 'package:flutter/material.dart';
 
@@ -100,7 +101,7 @@ class Payment extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                         builder: (context){
-                          return ShopPage();
+                          return Confirmation();
                         }
                     )
                 );

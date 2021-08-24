@@ -1,5 +1,6 @@
 import 'package:book/components/rounded_button.dart';
 import 'package:book/components/rounded_input_field.dart';
+import 'package:book/screens/Payment/PaymentMethod.dart';
 import 'package:book/screens/Shop/shop_page.dart';
 import 'package:flutter/material.dart';
 
@@ -103,7 +104,7 @@ class Invoice extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                         builder: (context){
-                          return ShopPage();
+                          return Payment();
                         }
                     )
                 );

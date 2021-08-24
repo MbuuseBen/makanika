@@ -19,7 +19,7 @@ class _ShopPageState extends State<Confirmation> {
     return Scaffold(
       appBar: AppBar(
         title: const Center(
-          child: Text('Payment Method'),
+          child: Text('Confirm Order'),
         ),
       ),
       body: SingleChildScrollView(
